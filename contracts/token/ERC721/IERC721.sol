@@ -11,9 +11,9 @@ import "../../introspection/IERC165.sol";
 contract IERC721 is Initializable, IERC165 {
 
   event Transfer(
-    address indexed from,
-    address indexed to,
-    uint256 indexed tokenId
+    address from,
+    address to,
+    uint256 tokenId
   );
   event Approval(
     address indexed owner,
